@@ -1,0 +1,45 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.search-bar {
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 70%;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.current-weather, .forecast {
+  margin: 2rem 0;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-day {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.forecast-day img {
+  width: 50px;
+  height: 50px;
+}

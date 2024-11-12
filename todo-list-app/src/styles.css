@@ -1,0 +1,24 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  

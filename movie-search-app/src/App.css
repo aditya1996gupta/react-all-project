@@ -1,0 +1,59 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.search-bar {
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 60%;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.movie-card {
+  text-align: center;
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.movie-card img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.movie-detail {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.movie-detail img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}

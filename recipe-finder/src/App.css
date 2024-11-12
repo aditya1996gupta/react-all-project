@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.search-bar {
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 70%;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.recipe-card {
+  width: 250px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.recipe-card h2 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.recipe-card p {
+  margin: 0.5rem 0;
+}

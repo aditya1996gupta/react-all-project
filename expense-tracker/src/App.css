@@ -1,0 +1,31 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.expense-form {
+  margin-bottom: 2rem;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.expense-list {
+  margin-top: 1rem;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
