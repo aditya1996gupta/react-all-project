@@ -1,0 +1,80 @@
+/* Reset some default styles for a cleaner look */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Main container style */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* App bar styling */
+.app-bar {
+  background-color: #3f51b5;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/* Common styles for cards */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography styling */
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+  color: #757575;
+}
+
+.value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.change {
+  font-size: 1rem;
+}
+
+/* Styling for positive/negative change */
+.change-positive {
+  color: green;
+}
+
+.change-negative {
+  color: red;
+}
+
+/* Chart container styling */
+.chart-container {
+  margin-top: 20px;
+}
+
+/* Top Expenses list styles */
+.top-expenses-list {
+  padding: 0;
+  list-style: none;
+}
+
+.top-expenses-item {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.top-expenses-item:last-child {
+  border-bottom: none;
+}
